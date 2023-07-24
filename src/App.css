@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:rgb(46, 8, 70);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(8px + 2vmin);
+  color:rgb(237, 171, 4);
+  font-family: Candara;
 }
 
 .App-link {
@@ -35,4 +36,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Title{
+  text-decoration: underline;
+}
+
+.Quote{
+  font-style: italic;
+  font-size: 30px;
+  color: #fb5454;
+  border: #ed5a5a 2px solid;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.Author{
+  font-size: 20px;
+  color: #fad103;
+  border: rgb(238, 238, 9) 2px solid;
+  padding: 1em;
+  border-radius: 25px;
+  background-color: #d481fa39;
+}
+
+.Generator{
+  font-family: Garamond;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #fad103;
+  border: 2px solid black;
 }
